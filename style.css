@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  padding: 12px 24px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #e67e22;
+  color: #ecf0f1;
+  transition: background-color .3s;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  background-color: #d35400;
+}
